@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
+
+
+  <title>Avalie Sua Mentoria</title>
+
+</head>
+
+
+<body>
+
+  <div class="page">
+
+  <header>
+
+    <h1>AVALIE SUA MENTORIA</h1>
+
+    <p>Chegou a hora de avaliar o seu mentor. Bora lá?</p>
+
+    <img id="img" src="images/img1.svg" alt="estrelas">
+
+
+
+
+  </header>
+
+  <div class="sub">
+    <p id="info">INFORMAÇÕES PESSOAIS</p>
+
+</div>
+
+  <form >
+
+    <fieldset>
+
+      <div id="col2">
+    <div class="input-wrapper">
+      <label for="event-info">Nome</label>
+      <input type="text" id="event-info" required>
+      </div>
+
+   <div class="input-wrapper">
+  <label for="event-info">Sobrenome</label>
+  <input type="text" id="event-info" required>
+  </div>
+</div>
+
+   <div class="input-wrapper">
+  <label for="event-email">Email <span id="one">(digite um email válido)</span>  </label>
+  <input type="text" id="event-email" required>
+   </div>
+
+    </fieldset>
+
+    <fieldset>
+
+   <legend id="three">INFORMAÇÕES DO MENTOR</legend>
+
+       <div class="input-wrapper">
+      <label id="two" for="events-info">Selecione quem foi o seu mentor</label>
+      <input type="text" id="events-info" required>
+      </div>
+
+      <div class="input-wrapper">
+    <label for="event-info">Feedback sobre o mentor</label>
+    <textarea type="text" id="event-info" required>  </textarea>
+
+    </div>
+
+
+      <div class="checkbox-wrapper">
+
+        <input type="checkbox" id="event-private"/>
+        <label for="event-private">Todas as minhas dúvidas foram esclarecidas durante a mentoria.</label>
+        
+       </div>
+
+
+    </fieldset>
+
+    <fieldset>
+
+
+      <legend id="five">AGENDANDO PRÓXIMA MENTORIA</legend>
+
+      <div class="fieldset-wrapper">
+
+      <div class="col-3">
+        <label for="event-date">Data <span id="two">(DD/MM/AAAA)</span></label>
+        <input type="date" id="event-date" required> </div>
+
+        <div class="col-3">
+          <label for="event-begin">Das</label>
+          <input type="time" id="event-begin" required> </div>
+
+          <div class="col-3">
+            <label for="event-end">Até</label>
+            <input type="time" id="event-end" required> </div>
+  
+</div>
+
+    </fieldset>
+
+    <div class="form-buttons">
+
+      <input
+      class="button"
+      type="submit"
+      value="Salvar">
+
+    </div>
+
+  </form>
+
+
+
+</div>
+  
+</body>
+
+
+
+
+</html>
